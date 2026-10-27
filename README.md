@@ -1,24 +1,30 @@
-# C-Four-Operations-Calculator
+# C Four Operations Calculator | C Dört İşlem Hesap Makinesi
 
+🇬🇧 English | 🇹🇷 Türkçe
 
-A simple calculator developed using the C programming language.
+---
 
-## Features
+## 🇬🇧 English
+
+### About the Project
+A simple command-line calculator developed using the C programming language. It performs basic mathematical operations based on user input.
+
+### Features
 - Addition (+)
 - Subtraction (-)
 - Multiplication (*)
 - Division (/)
-- Switch-case operation selection
-- Division by zero check
+- Operation selection using `switch-case`
+- Division by zero protection
 - Invalid operation handling
 
-## Technologies
-- C
-- stdio.h
+### Technologies
+- C Programming Language
+- Standard Input/Output Library (`stdio.h`)
 
-## How to Run
+### How to Compile and Run
 
-Compile the program using GCC:
+Compile with GCC:
 
 ```bash
 gcc main.c -o calculator
@@ -36,6 +42,58 @@ Run on Linux or macOS:
 ./calculator
 ```
 
-## Purpose
+### Purpose
+This project was created to practice fundamental C programming concepts, including variables, user input, output, conditional statements, and `switch-case`.
 
-This project was created to practice basic C programming concepts, including variables, input/output operations, conditional statements, and switch-case structures.
+---
+
+## 🇹🇷 Türkçe
+
+### Proje Hakkında
+C programlama dili kullanılarak geliştirilmiş, kullanıcıdan alınan verilere göre temel matematiksel işlemleri gerçekleştiren basit bir komut satırı hesap makinesidir.
+
+### Özellikler
+- Toplama (+)
+- Çıkarma (-)
+- Çarpma (*)
+- Bölme (/)
+- `switch-case` ile işlem seçimi
+- Sıfıra bölme kontrolü
+- Geçersiz işlem kontrolü
+
+### Kullanılan Teknolojiler
+- C Programlama Dili
+- Standart Giriş/Çıkış Kütüphanesi (`stdio.h`)
+
+### Derleme ve Çalıştırma
+
+GCC ile derlemek için:
+
+```bash
+gcc main.c -o calculator
+```
+
+Windows'ta çalıştırmak için:
+
+```bash
+calculator.exe
+```
+
+Linux veya macOS'ta çalıştırmak için:
+
+```bash
+./calculator
+```
+
+### Projenin Amacı
+Bu proje; değişkenler, kullanıcıdan veri alma, ekrana çıktı verme, koşullu ifadeler ve `switch-case` yapısı gibi temel C programlama konularını pekiştirmek amacıyla geliştirilmiştir.
+
+---
+
+## 👨‍💻 Developer | Geliştirici
+
+**Arda Bayraktar**
+
+This project is part of my programming learning journey.
+
+Bu proje, programlama öğrenme sürecimin bir parçasıdır.
